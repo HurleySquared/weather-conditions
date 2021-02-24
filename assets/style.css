@@ -1,0 +1,19 @@
+.header {
+   margin: 8px;
+   text-align: center;
+   background-color: #429BF4;
+}
+
+.input-group {
+    margin: 20px;
+    max-width: 30%;
+    height: 20px;
+}
+
+.jumbotron {
+    background-color: #429BF4;
+}
+
+button {
+    color: #429BF4;
+}
