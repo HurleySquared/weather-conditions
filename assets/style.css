@@ -17,3 +17,19 @@
 button {
     color: #429BF4;
 }
+
+.card {
+    background-color: #429BF4;
+}
+
+.low {
+    background-color:rgb(148, 255, 122)
+}
+
+.medium {
+    background-color: rgb(255, 166, 78);
+}
+
+.high {
+    background-color: rgb(247, 70, 70);
+}

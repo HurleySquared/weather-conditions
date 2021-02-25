@@ -28,8 +28,8 @@ THEN I am again presented with current and future conditions for that city
 
 
 ## Link to GitHub Repo and Deployed Application
-- [GitHub Repo]()
-- [Weather Conditions Application]()
+- [GitHub Repo](https://github.com/HurleySquared/weather-conditions)
+- [Weather Conditions Application](https://hurleysquared.github.io/weather-conditions/)
 
 ## Screenshots of Application
-![Screenshot]()
+![Screenshot](./images/weather-checker.png)

@@ -18,33 +18,47 @@
         <h1>Your Weather Checker</h1>
         <p id="clock"></p>
     </div>
-    <div class="container row justify-content-md-center">
+    <div class="container">
         <aside class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Your City" id="search">
-            <button class="btn btn-outline-secondary" type="button" id="searchBtn"><i
-                    class="fas fa-search-location"></i></button>
-            <ul class="list-group" id="recent">
-            </ul>
+            <div class="row">
+                <input type="text" class="form-control col-md-8" placeholder="Your City" id="search">
+                <button class="btn btn-outline-secondary col-md-2" type="button" id="searchBtn"><i
+                        class="fas fa-search-location"></i></button>
+            </div>
+            <div class="container">
+                <ul class="list-group row mb-3 p-4">
+                    <li class="list-group-item"></li>
+                    <li class="list-group-item"></li>
+                    <li class="list-group-item"></li>
+                    <li class="list-group-item"></li>
+                    <li class="list-group-item"></li>
+                </ul>
+            </div>
         </aside>
-        <div class="jumbotron col-md-6">
-            <h2 class="display-4" id="city-name">City/Date</h2>
-            <p id="icon"></p>
-            <ul class="list-group">
-                <li class="list-group-item" id="temp">Temperature:</li>
-                <li class="list-group-item" id="humidity">Humidity (%):</li>
-                <li class="list-group-item" id="wind">Wind Speed (mph):</li>
-                <li class="list-group-item" id="ultra">UV Index:</li>
-            </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron col-md-8 offset-md-4">
+                <h2 class="display-4" id="city-name">City/Date</h2>
+                <p id="icon"></p>
+                <ul class="list-group">
+                    <li class="list-group-item" id="temp">Temperature:</li>
+                    <li class="list-group-item" id="humidity">Humidity (%):</li>
+                    <li class="list-group-item" id="wind">Wind Speed (mph):</li>
+                    <li class="list-group-item violet" id="ultra">UV Index:</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="container row justify-content-md-center">
+    <h2 class="row col-md-8 offset-md-3">5-Day Forecast</h2>
+    <div class="container row mb-8 offset-md-2 justify-content-md-center">
         <div class="card col-md-2" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title" id="date1">Date</h5>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item" id="temp1">Temp:</li>
-                <li class="list-group-item" id="humidty1">Humidity:</li>
+                <li class="list-group-item" id="humidity1">Humidity:</li>
             </ul>
         </div>
         <div class="card col-md-2" style="width: 18rem;">
@@ -53,7 +67,7 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item" id="temp2">Temp:</li>
-                <li class="list-group-item" id="humidty2">Humidity:</li>
+                <li class="list-group-item" id="humidity2">Humidity:</li>
             </ul>
         </div>
         <div class="card col-md-2" style="width: 18rem;">
@@ -62,7 +76,7 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item" id="temp3">Temp:</li>
-                <li class="list-group-item" id="humidty3">Humidity:</li>
+                <li class="list-group-item" id="humidity3">Humidity:</li>
             </ul>
         </div>
         <div class="card col-md-2" style="width: 18rem;">
@@ -71,7 +85,7 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item" id="temp4">Temp:</li>
-                <li class="list-group-item" id="humidty4">Humidity:</li>
+                <li class="list-group-item" id="humidity4">Humidity:</li>
             </ul>
         </div>
         <div class="card col-md-2" style="width: 18rem;">
@@ -80,7 +94,7 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item" id="temp5">Temp:</li>
-                <li class="list-group-item" id="humidty5">Humidity:</li>
+                <li class="list-group-item" id="humidity5">Humidity:</li>
             </ul>
         </div>
     </div>
